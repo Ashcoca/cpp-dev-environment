@@ -5,7 +5,6 @@
 3. [Linux](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#linux)
 4. [Using Your Compiler (optional)](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#using-your-compiler)
 
-
 ## MacOS
 
 If you are a Mac user, you will need to download **Xcode**. 
@@ -24,13 +23,13 @@ Please note, if you choose to use a different IDE the amount of support the Inst
 
 To create a new project. Go to File menu -> select New -> select Project. This will create a new project for you.
 
-Now in the next window you have to choose a template for your project. To choose a C++ template choose Application option which is under the OS X section on the left side bar. Now choose **command-line tools** from available options and hit Next button.
+Now in the next window you have to choose a template for your project. Select **command-line tools** from the available options (MacOS -> Application) and hit the Next button.
 
-On the next window provide all the necessary details like ‘name of organisation’, ‘Product Name’ etc. But make sure to choose the language as C++ . After filling the details hit the next button to proceed to further steps.
+On the next window provide all the necessary details like ‘name of organization’, ‘Product Name’ etc. But make sure to choose the language as C++ . After filling in the details hit the next button to proceed.
 
 Choose the location where you want to save your project. After this choose the main.cpp file from the directory list on the left side-bar.
 
-Now after opening the main.cpp file, you will see a pre written "Hello World" c++ program. You may change this program as per your requirement. To run your C++ program you have to go to Product menu and choose the Run option from the dropdown.
+Now after opening the main.cpp file, you will see a pre written "Hello World" C++ program. Change this as needed for your requirements. To run your C++ program you can either hit the sideways triangle 'play' button, go to Product menu and choose the Run option from the dropdown, or simply Press Cmd+R.
 
 
 ## Windows
