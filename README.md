@@ -8,7 +8,7 @@
 
 ## MacOS
 
-If you are a Mac user,you have to download **Xcode**. 
+If you are a Mac user, you will need to download **Xcode**. 
 
 [Download Xcode here](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 
@@ -18,7 +18,7 @@ Installing Xcode will set you up with gcc/clang for compiling.
 
 **If you prefer to use a different IDE you are welcome to, but you will still need to install Xcode**
 
-Please note if you choose to use a different IDE the amount of support the Instructors can offer you is limited.
+Please note, if you choose to use a different IDE the amount of support the Instructors can offer you is limited.
 
 ### Getting Started with Xcode
 
@@ -77,11 +77,11 @@ g++ --version
 
 If you have completed the above steps (for MacOS/Linux) without any errors, then your dev environment is set up and ready to be used! 
 
-In further steps, we will learn how to compile and run a C++ program using the GCC compiler.
+In the next few steps, we will learn how to compile and run a C++ program using the GCC compiler.
 
-Write your program in a text file and save it with any file name and.CPP extension. 
+Write your program in a text file and save it with any file name .CPP extension. 
 
-Example: We have written a program to display “Hello World” and saved it in a file with the filename “helloworld.cpp” on desktop.
+Example: We have written a program to display “Hello World” and saved it in a file with the filename `helloworld.cpp` on desktop.
 
 ```cpp
 #include <iostream>
@@ -92,9 +92,9 @@ int main(int argc, const char * argv[]) {
 }
 ```
 
-Now you have to open the terminal and move to the directory where you have saved your file. 
+Now you have to open the terminal and navigate to the directory where you have saved your file. 
 
-Then you have to run the below command to compile your file:
+Then you have to run the following command to compile your file:
 
 ```
 g++ filename.cpp -o <name>
@@ -108,7 +108,7 @@ We will run the above command as:
 g++ helloworld.cpp -o hello
 ```
 
-After executing the above command, you will see a new file is created automatically in the same directory where you have saved the source file and the name of this file is the name you chose as <name>.
+After executing the above command, you will see a new file is created automatically in the same directory where you have saved the source file. The name of this file is the name you chose as <name>.
 
 Now to run your program you have to run the below command:
 
@@ -117,3 +117,5 @@ Now to run your program you have to run the below command:
 ```
 
 This command will run your program in the terminal window.
+
+Congratulations on successfully compiling and running your first C++ application!
