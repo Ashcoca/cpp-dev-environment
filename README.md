@@ -1,9 +1,9 @@
 # Setting Up Your C++ Dev Env
 
-1. [MacOS]()
-2. [Windows]()
-3. [Linux]()
-4. Using Your Compiler (optional)
+1. [MacOS](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#macos)
+2. [Windows](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#windows)
+3. [Linux](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#linux)
+4. [Using Your Compiler (optional)](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#using-your-compiler)
 
 
 ## MacOS
