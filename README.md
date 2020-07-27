@@ -1,9 +1,27 @@
 # Setting Up Your C++ Dev Env
 
-1. [MacOS](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#macos)
-2. [Windows](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#windows)
-3. [Linux](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#linux)
-4. [Using Your Compiler (optional)](https://github.com/Ashcoca/cpp-dev-environment/blob/master/README.md#using-your-compiler)
+1. [Windows](https://github.com/gSchool/cpp-dev-environment/blob/master/README.md#windows)
+2. [MacOS](https://github.com/gSchool/cpp-dev-environment/blob/master/README.md#macos)
+3. [Linux / WSL](https://github.com/gSchool/cpp-dev-environment/blob/master/README.md#linux)
+4. [Using Your Compiler (optional)](https://github.com/gSchool/cpp-dev-environment/blob/master/README.md#using-your-compiler)
+5. [Installing GoogleTest](https://github.com/gSchool/cpp-dev-environment/blob/master/GoogleTest.md)
+
+## Windows
+
+For Windows users, we recommend you install and use **Visual Studio 2019**
+
+- [Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
+
+You are welcome to use another IDE but please note that using an unsupported IDE will mean the Instructional staff can only offer limited help if you run into issues.
+
+When installing Visual Studio be sure to select the **Desktop Development in C++** option under Workloads:
+
+![VS2019-options](https://user-images.githubusercontent.com/40476562/87713294-d0134b00-c75e-11ea-8f91-28b76a7c98fa.png)
+
+NOTE: If you have already installed Visual Studio and didn't select the "Desktop Dev with C++" option you will need to repair/modify your installation
+
+Control Panel -> Add/Remove Programs -> Visual Studio -> Modify/Repair
+
 
 ## MacOS
 
@@ -32,24 +50,7 @@ Choose the location where you want to save your project. After this choose the m
 Now after opening the main.cpp file, you will see a pre written "Hello World" C++ program. Change this as needed for your requirements. To run your C++ program you can either hit the sideways triangle 'play' button, go to Product menu and choose the Run option from the dropdown, or simply Press Cmd+R.
 
 
-## Windows
-
-For Windows users, we recommend you install and use **Visual Studio 2019**
-
-- [Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
-
-You are welcome to use another IDE but please note that using an unsupported IDE will mean the Instructional staff can only offer limited help if you run into issues.
-
-When installing Visual Studio be sure to select the **Desktop Development in C++** option under Workloads:
-
-![VS2019-options](https://user-images.githubusercontent.com/40476562/87713294-d0134b00-c75e-11ea-8f91-28b76a7c98fa.png)
-
-NOTE: If you have already installed Visual Studio and didn't select the "Desktop Dev with C++" option you will need to repair/modify your installation
-
-Control Panel -> Add/Remove Programs -> Visual Studio -> Modify/Repair
-
-
-## Linux
+## Linux / WSL
 
 We will install the GNU GCC compiler on Linux.
 
